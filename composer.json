@@ -1,0 +1,30 @@
+{
+    "name": "roundcube/filter_links",
+    "description": "This is a simple plugin that transforms simple tracking links",
+    "type": "roundcube-plugin",
+    "authors": [
+        {
+            "name": "Hubert Głuchowski",
+            "email": "fishhh@fishhh.dev"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.2"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "0.9.0",
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "roundcube/plugin-installer": true
+        }
+    }
+}
